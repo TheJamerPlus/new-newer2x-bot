@@ -11,7 +11,7 @@ exports.run = (client, message, params) => {
   .addField("**Eğlence ve Kullanıcı Komutları:**", `h!banned = Dene ve Gör! \nh!avatarım = Avatarınınızı Gösterir. \nh!herkesebendençay = Herkese Çay Alırsınız. \nh!koş = Koşarsınız.\nh!çayiç = Çay İçersiniz. \nh!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \nh!çayaşekerat = Çaya Şeker Atarsınız. \nh!yumruh-at = Yumruk Atarsınız. \nh!yaz = Bota İstediğiniz Şeyi Yazdırırsınız. \nh!sunucuresmi = BOT Sunucunun Resmini Atar. \nh!sunucubilgi = BOT Sunucu Hakkında Bilgi Verir. \nh!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. `)
   .addField("**Yetkilisi Komutlar**", `h!ban = İstediğiniz Kişiyi Sunucudan Banlar. \nh!kick  = İstediğiniz Kişiyi Sunucudan Atar. \nh!unban = İstediğiniz Kişinin Yasağını Açar. \nh!sustur = İstediğiniz Kişiyi Susturur. \nh!oylama = Oylama Açar. \nh!duyuru = Güzel Bir Duyuru Görünümü Sağlar.`)
   .addField("**Ana Komutlar**", "h!yardım = BOT Komutlarını Atar. \nh!bilgi = BOT Kendisi Hakkında Bilgi Verir. \nh!ping = BOT Gecikme Süresini Söyler. \nh!davet = BOT Davet Linkini Atar. \nh!istatistik = BOT İstatistiklerini Atar.")
-  .addField("**Yapımcı**", " **Sénateur#5054** ")
+  .addField("**Yapımcı**", " **@💻 NWR2X Helado Módem 💻#3812** ")
   .setFooter('**--------------------------**')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
