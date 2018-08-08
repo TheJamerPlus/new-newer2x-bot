@@ -5,16 +5,16 @@ const ayarlar = require('../ayarlar.json');
 var prefix = ayarlar.prefix;
 
 const girismesaj = [
-  'Botumuzun özelliklerini öğrenmek için h!yardım komutunu kullanabilirsin.',
+  'Botumuzun özelliklerini öğrenmek için n!yardım komutunu kullanabilirsin.',
   '**ÖNEMLİ:** Botun kullanması için mod-log kanalı açın ve deneme için',
-  'h!uyarı komutunu kullanın.',
+  'n!uyarı komutunu kullanın.',
   '',
-  `CST resmi sunucusu : https://discord.gg/yq69bGz`,
-  `**cst sunucusu** https://discord.gg/yq69bGz`
+  `~NW2X~ 💻 NW2X Helado Módem 💻,~NW2X~  ♥Veinticinco♥`,
+  `**~NW2X~ ♥Veintidós♥`
 ]
 
 client.on('guildCreate', guild => {
     const generalChannel = guild.defaultChannel
     generalChannel.sendMessage(girismesaj)
-	client.user.setGame(prefix + 'h!yardım | ' + client.guilds.size + ' sunucu | ' + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ' kullanıcı');
+	client.user.setGame(prefix + 'n!yardım | ' + client.guilds.size + ' sunucu | ' + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ' kullanıcı');
 })
